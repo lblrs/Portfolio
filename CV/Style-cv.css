@@ -1,11 +1,13 @@
 body{
-    margin: 2em 20em;
+    margin: 2em auto;
     background-image: url(Images/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+
 }
 
 header{
