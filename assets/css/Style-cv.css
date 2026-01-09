@@ -1,0 +1,115 @@
+body{
+    margin: 2em 20em;
+    background-image: url(Images/background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.profile-picture{
+    margin-right: 2em;
+    border-radius: 2%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+div{
+    text-align: justify;
+}
+
+div img{
+    margin-right: 0.15em;
+    width: 20px;
+    height: 20px;
+}
+
+address img{
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(128, 128, 128, 0.1) 100%);
+
+}
+
+
+
+#exp{
+    width: 80%;
+    padding: 0 1em;
+}
+
+#moi{
+    width: 25%;
+    padding-top: 1em;
+    margin: 2em 0 1em 1em;
+}
+
+#moi li{
+    display: flex;
+    margin: 0.15em;
+    color: black;
+
+}
+
+#moi ul{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+}
+
+div ul{
+    padding: 0;
+}
+
+#moi ul{
+    list-style: none;
+    color: rgba(240, 248, 255, 0.937);
+}
+
+main{
+    background: radial-gradient(circle, rgba(240, 248, 255, 0) 0%, rgb(240, 248, 255) );
+    padding: 1em;
+    box-shadow: 1px 1px 1px 1px black;
+    border: solid rgba(0, 0, 0, 0.214);
+    border-radius: 0.2em;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.vl {
+  border-left: 6px solid black;
+  height: 1000px;
+  margin: auto;
+}
+
+h3{
+    margin: auto;
+}
+
+span{
+    margin: 10px;
+}
+
+h6{
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+    border-radius: 30%;
+}
+
+a{
+    color: #5b9474;
+}
